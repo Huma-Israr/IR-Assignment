@@ -18,13 +18,21 @@ This Assignment folder contain Python and Matlab based implementation of Differe
     Naive Bayes 
     
 # Software Requirment
+
 This Project requires following diffrent software/tools installed on the system
 
    1: Python ..............Pycharm IDE
-   2: NLTK 
+	 
+   2: NLTK
+	 
    3: SkiLearn
+	 
    4: irlib 0.1.1
+	 
    5  Spacy
+	 
    6: gensim
+	 
    7: TextBlob
+	 
    8: Matlab
