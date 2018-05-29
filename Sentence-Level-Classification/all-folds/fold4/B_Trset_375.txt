@@ -1,0 +1,1 @@
+product loop corrected belief propagation equations algorithm calculates exact covariance matrices Gaussian models like one discussed CITATION without explicitly using linear response

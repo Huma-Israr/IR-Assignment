@@ -1,0 +1,1 @@
+Section shows exponential error bound obtained CITATION sharp general
