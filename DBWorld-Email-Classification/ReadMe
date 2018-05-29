@@ -1,7 +1,10 @@
 
 
 #### DBWorld Email Classification
-this folder contain Matlab Implementation for Email Classification (diffrentiating email into ham and spam class).Dataset is downloaded from UCI dataset corpus. the dataset contaion *.arff and *.m files. in First step this data is preprocessed and converted into .txt files. Classification is then Done on the text files using KNN,Naive Bayes and Rochhio Algorithm.
+this folder contain Matlab Implementation for Email Classification (diffrentiating email into ham and spam class).
+Dataset is downloaded from UCI dataset corpus. the dataset contaion *.arff and *.m files. in First step this data is 
+preprocessed and converted into .txt files. Classification is then Done on the text files using KNN,Naive Bayes and 
+Rochhio Algorithm.
 
 ### Step to Run The Experiment
 
@@ -17,6 +20,9 @@ step 5: Run main_nb.m
         (can additionally run NBtrain and NBtest for understanding)
 Step 6: Run main_knn.m
         (can additionally run KNNtrain and KNNtest for understanding)
-step 7: Run main_Roc.m
-        (can additionally run Roctrain and Roctest for understanding)
+
+
+Rocchio classifier is implmented in Python:
+
+To run Rocchio Classifier for Email classification. Download the Rocchio.py and execute it.
         
