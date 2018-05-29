@@ -1,0 +1,1 @@
+show even case model class contains Bernoulli distributions
