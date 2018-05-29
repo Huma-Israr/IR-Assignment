@@ -35,7 +35,6 @@ len(target)
 
 # KNeighbors"
 
-
 # print(tfidf)
 
 neigh = KNeighborsClassifier(n_neighbors=3)
