@@ -1,7 +1,7 @@
 
 
 #### DBWorld Email Classification
-this folder contain Matlab Implementation for Email Classification (diffrentiating email into ham and spam class).
+this folder contain Matlab/Python Implementation for Email Classification (diffrentiating email into ham and spam class).
 Dataset is downloaded from UCI dataset corpus. the dataset contaion *.arff and *.m files. in First step this data is 
 preprocessed and converted into .txt files. Classification is then Done on the text files using KNN,Naive Bayes and 
 Rochhio Algorithm.
