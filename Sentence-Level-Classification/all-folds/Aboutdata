@@ -1,1 +1,31 @@
 
+## About Data
+the UCI Data set downloaded from  (https://archive.ics.uci.edu/ml/datasets/Sentence+Classification) consist of labled train set and unlabled Test set.Data Set contains sentences from the abstract and introduction of 90 scientific article from three
+different domains:
+
+  1. PloS Computational Biology (PLOS)
+  
+  2. The Machine Learning repository on arXiv (ARXIV)
+  
+  3. The psychology journal Judgment and Decision Making (JDM).
+  
+a: Training Set contains 72 articles with 25000 sentences:
+
+   24 PLOS articles with 893 sentences
+ 
+   24 ARXIV articles with 793 sentences
+ 
+   24 JDM articles with 814 sentences
+
+b: Test Set contains 18 articles with 617 sentences:
+
+   6 PLOS articles with 220 sentences
+   
+   6 ARXIV articles with 197 sentences
+   
+   6 JDM articles with 200 sentences
+   
+  Data Preprocessing:
+  
+  Data preprocesing is done on the dataset. each line in the article represents a new class. during processing read each line from the article and make a separate text file. the name of the text file shold represnt the Class lable from the train dataset. for examle if Sentance-1 from an article-1 belongs to AIMX class  than name of the new text file should be A_trset_1.txt. A represnt the lable of the class to which this sentence belongs.Note:Each text file should contain only one sentance.  
+ 
