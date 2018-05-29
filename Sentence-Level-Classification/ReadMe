@@ -1,9 +1,7 @@
 
 # IR-Assignment
 Text Classification
-Appling various Classifier on UCI Dataset 
-(Sentence Classification Data Set: https://archive.ics.uci.edu/ml/datasets/Sentence+Classification ) Using irlib-0.1.1 . 
-Classifying sentences from academic papers. 5 labled classes in the train set are 
+Appling various Classifier on UCI Dataset (Sentence Classification Data Set: https://archive.ics.uci.edu/ml/datasets/Sentence+Classification ) Using irlib-0.1.1 .Classifying sentences from academic papers. 5 labled classes in the train set are 
 
   1: Paper contain past work that provides the basis for the work in the article ----------(BASE)
   2: comparison  of the past work---------------------------------------------------------(CONT) 
@@ -37,12 +35,9 @@ Properly Cloned irlib Contain following main components:
    
  # How to use Code for the Dataset Classification 
  
-1. Download the dataset and Test.py and classify.conf file. 
-2. test.py is program used to train and test the classifier.
+1. Download the dataset and classifyText.py and classify.conf file. 
+2. classifytext.py is program used to train and test the classifier.
  
- This program need library file to be imporeted also before executing the test program check the path for clssify.conf.
- it contain necessary configuration for the classfication task.(check the file path in the test.py). changing classifer name 
- in classify.conf file will execute diffrent classifier (e.g knn to Rocchio).you can also change other parameter in the 
- classify.conf according to your requirment.
+ This program need irlib library file to be imported. before executing the classifytext program check the path for clssify.conf.it contain necessary configuration for the classfication task. changing classifer name in classify.conf file will execute diffrent classifier (e.g knn to Rocchio).you can also change other parameter in the classify.conf according to your requirment.
  
  For More Detail on irlib Libraray visit: https://github.com/gr33ndata/irlib
