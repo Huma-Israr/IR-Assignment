@@ -1,1 +1,15 @@
+# Health News Tweets Classification
 
+This is Python Based Implemntation for Health tweet classfication  Using KNN, Navie Bayes, Rocchio Algorithm for text classification. dataset can be downloaded from UCI dataset Corpus.
+
+# Dataset.
+The data set contains unlabled health related tweets from diffrent news agensies e.g. BBC , CNN etc. the major task in this implemation is preprocessed the data and assign them apprpraite lable. this is done using clustering technique.LDA based Clustering is applied to identfy 4 Major groups in the data. classification is than performed on the data using python based KNN, Rocchio and NB.
+
+# Experiment
+step1: download datapreprocessing.py  
+
+       (this will idntify similar group in the dataset) 
+
+Step 2: Dowload and run KNN-Rocchio-Bayes.py
+    
+        (Train and Test Classification
