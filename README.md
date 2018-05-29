@@ -4,12 +4,15 @@ This Assignment folder contain Python and Matlab based implementation of Differe
 
 # Dataset: 
   1: Sentance Level Classification Dataset
+  
      (https://archive.ics.uci.edu/ml/datasets/Sentence+Classification)
 		 
   2: Health News Tweet Dataset
+  
      (https://archive.ics.uci.edu/ml/datasets/Health+News+in+Twitter#)
 		 
   3: Email Classification Dataset
+  
      (https://archive.ics.uci.edu/ml/datasets/DBWorld+e-mails)
 
 # Applied Three Classifier   
