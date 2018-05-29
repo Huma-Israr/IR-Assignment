@@ -1,0 +1,1 @@
+Note order MDL continuous model classes one needs discretize parameter space see also CITATION

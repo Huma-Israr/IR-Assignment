@@ -1,0 +1,1 @@
+Assume outcome space finite model class continuously parameterized
