@@ -1,18 +1,15 @@
 
 # IR-Assignment
 Text Classification
-Appling various Classifier on UCI Dataset (Sentence Classification Data Set: https://archive.ics.uci.edu/ml/datasets/Sentence+Classification ) Using irlib-0.1.1 . Classifying sentences from academic papers
+Appling various Classifier on UCI Dataset 
+(Sentence Classification Data Set: https://archive.ics.uci.edu/ml/datasets/Sentence+Classification ) Using irlib-0.1.1 . 
+Classifying sentences from academic papers. 5 labled classes in the train set are 
 
-
-1: Paper contain past work that provides the basis for the work in the article ----------(BASE)
- 
-2: comparison  of the past work---------------------------------------------------------(CONT) 
-
-3: The specific research goal of the paper----------------------------------------------(AIMX) 
-
-4: Authors own work (methods, results, and conclusions)---------------------------------(OWNX)
-
-5: Miscellaneous -----------------------------------------------------------------------(MISC)
+  1: Paper contain past work that provides the basis for the work in the article ----------(BASE)
+  2: comparison  of the past work---------------------------------------------------------(CONT) 
+  3: The specific research goal of the paper----------------------------------------------(AIMX) 
+  4: Authors own work (methods, results, and conclusions)---------------------------------(OWNX)
+  5: Miscellaneous -----------------------------------------------------------------------(MISC)
 
 
 # Applied Three Classifier   
@@ -25,9 +22,7 @@ is Python Based Information Retrieval Libraray.It need to have Python installed 
 To install the package 
 
    1: Install Python 
-   
    2: Install NLTK
-   
    2: Install irlib==0.1.1 
    
 # File Structure
@@ -42,12 +37,12 @@ Properly Cloned irlib Contain following main components:
    
  # How to use Code for the Dataset Classification 
  
- Download the dataset and Test.py and classify.conf file. 
- 
- test.py is program used to train and test the classifier.
+1. Download the dataset and Test.py and classify.conf file. 
+2. test.py is program used to train and test the classifier.
  
  This program need library file to be imporeted also before executing the test program check the path for clssify.conf.
- 
- it contain necessary configuration for the classfication task.(check the file path in the test.py). changing classifer name in classify.conf file will execute diffrent classifier (e.g knn to Rocchio).you can also change other parameter in the classify.conf according to your requirment.
+ it contain necessary configuration for the classfication task.(check the file path in the test.py). changing classifer name 
+ in classify.conf file will execute diffrent classifier (e.g knn to Rocchio).you can also change other parameter in the 
+ classify.conf according to your requirment.
  
  For More Detail on irlib Libraray visit: https://github.com/gr33ndata/irlib
