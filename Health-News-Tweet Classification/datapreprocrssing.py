@@ -15,7 +15,6 @@ from gensim import corpora, models
 from gensim.corpora.dictionary import Dictionary
 from nltk.corpus import movie_reviews
 
-
 def tokenize(text):
     lda_tokens = []
     text.translate(dict.fromkeys(string.punctuation))
@@ -55,10 +54,6 @@ def prepare_text_for_lda(text):
     tokens = [token for token in tokens if token not in en_stop]
     tokens = [get_lemma(token) for token in tokens]
     return tokens
-
-
-
-
 
 text_data = []
 short_pos = open("dataset/combinedtweet.txt","r",encoding="ANSI").read()
